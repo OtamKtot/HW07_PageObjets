@@ -1,4 +1,4 @@
-package demoQa.checks;
+package demoqa.checks;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$x;

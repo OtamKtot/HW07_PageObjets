@@ -1,7 +1,7 @@
-package demoQa.tests;
+package demoqa.tests;
 
-import demoQa.checks.TextBoxCheckups;
-import demoQa.pageobjects.TextBoxPage;
+import demoqa.checks.TextBoxCheckups;
+import demoqa.pageobjects.TextBoxPage;
 import org.junit.jupiter.api.Test;
 
 public class TextBoxTest extends TestBase {

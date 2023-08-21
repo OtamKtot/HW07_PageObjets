@@ -1,9 +1,9 @@
-package demoQa.tests;
+package demoqa.tests;
 
-import demoQa.checks.RegistrationPageCheckups;
+import demoqa.checks.RegistrationPageCheckups;
 import org.junit.jupiter.api.Test;
-import demoQa.pageobjects.RegistrationPage;
-import demoQa.components.CalendarComponent;
+import demoqa.pageobjects.RegistrationPage;
+import demoqa.components.CalendarComponent;
 
 public class RegistrationFormTest extends TestBase {
 
@@ -15,6 +15,7 @@ public class RegistrationFormTest extends TestBase {
     void successfulSearchTest() {
         //открываем страницу + сетим данные
         registrationPage.openPage()
+                .removeBanner()
                 .setFirstName("Juzeppe")
                 .setLastName("Fortunatti")
                 .setUserEmail("JuzzForti@yopmail.com")

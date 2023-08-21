@@ -1,6 +1,6 @@
-package demoQa.checks;
+package demoqa.checks;
 
-import demoQa.pageobjects.TextBoxPage;
+import demoqa.pageobjects.TextBoxPage;
 
 import static com.codeborne.selenide.Condition.text;
 
