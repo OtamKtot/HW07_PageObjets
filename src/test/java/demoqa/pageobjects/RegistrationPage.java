@@ -1,7 +1,6 @@
 package demoqa.pageobjects;
 
 import com.codeborne.selenide.SelenideElement;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -60,7 +59,7 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage subjectsInput(String value) {
+    public RegistrationPage setSubject(String value) {
         subjectsInput.setValue(value).pressEnter();
         return this;
     }

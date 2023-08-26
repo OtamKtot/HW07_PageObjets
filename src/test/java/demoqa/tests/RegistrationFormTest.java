@@ -21,7 +21,7 @@ public class RegistrationFormTest extends TestBase {
                 .setUserEmail("JuzzForti@yopmail.com")
                 .setGender("Male")
                 .setUserMobileNumber("9998887777")
-                .subjectsInput("Arts")
+                .setSubject("Arts")
                 .setHobbies("Reading")
                 .setAddress("Не дом и не улица. Мой адрес - Советский Союз!")
                 .uploadFile("ONYX.png")
