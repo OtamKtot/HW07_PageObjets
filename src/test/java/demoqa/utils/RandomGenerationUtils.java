@@ -22,8 +22,8 @@ public class RandomGenerationUtils {
     }
     public String getUserMobileNumber() {return  faker.phoneNumber().subscriberNumber(10);}
     public String getUserBirthDay() {return (new SimpleDateFormat("dd", Locale.ENGLISH)).format(userBirthDay);}
-    public String getUserBirthMonth() {return (new SimpleDateFormat("mm", Locale.ENGLISH)).format(userBirthDay);}
-    public String getUserBirthYear() {return (new SimpleDateFormat("yy", Locale.ENGLISH)).format(userBirthDay);}
+    public String getUserBirthMonth() {return (new SimpleDateFormat("MMMM", Locale.ENGLISH)).format(userBirthDay);}
+    public String getUserBirthYear() {return (new SimpleDateFormat("y", Locale.ENGLISH)).format(userBirthDay);}
     public String getUserSubject() {
         String[] subject = {"English", "Chemistry", "Computer Science", "Commerce", "Economics", "Social Studies",
                 "Arts", "History", "Maths", "Accounting", "Physics", "Biology", "Hindi", "Civics"};
